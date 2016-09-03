@@ -1,14 +1,4 @@
-/*! -----------------------------------------------------------------
-[Master Stylesheet]
 
-Project:     Neomax
-Version:     1.0.4
-Last change: 07.07.2016
-Primary use: Multipurpose Template
-
-------------------------------------------------------------------
-[General Styles]
-*/
 
 body {
     background: #ffffff;
@@ -205,6 +195,9 @@ h6.text-uppercase,
 .h6.text-uppercase {
     letter-spacing: 1px;
     margin-right: -1px;
+}
+h1.quotes {
+    color: #6f8197;
 }
 
 .montserrat {
