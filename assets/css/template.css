@@ -681,6 +681,9 @@ hr {
 /*------------------------------------------------------------------
 [Forms]
 */
+.border {
+    border: 0.3px solid rgba(255, 255, 255, 0.8);
+}
 
 .form-control {
     border: 2px solid #eee;
@@ -3726,14 +3729,10 @@ body.off-canvas-cart-open:after {
 .bg-black-alfa-80:before,
 .bg-black-alfa-85:before,
 .bg-black-alfa-90:before,
-.bg-black-alfa-95:before
-.bg-black-alfa-about {
+.bg-black-alfa-95:before {
     background: rgba(0, 0, 0, 0.05);
 }
 
-.bg-black-alfa-about {
-    background: rgb(0, 0, 0, 0.7);
-}
 .bg-black-alfa-10:before {
     background: rgba(0, 0, 0, 0.1);
 }
@@ -3751,7 +3750,7 @@ body.off-canvas-cart-open:after {
 }
 
 .bg-black-alfa-30:before {
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.30);
 }
 
 .bg-black-alfa-35:before {
@@ -3759,7 +3758,7 @@ body.off-canvas-cart-open:after {
 }
 
 .bg-black-alfa-40:before {
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .bg-black-alfa-45:before {
@@ -5597,4 +5596,25 @@ address.map-background {
     .footer .scroll-top {
         display: none;
     }
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
