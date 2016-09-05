@@ -865,6 +865,10 @@ table th {
 
 /* --- [Button Sizes] --- */
 
+.btn-education {
+    padding: padding: 13px 31px;
+    font-size: 30px;
+}
 .btn-lg {
     padding: 13px 31px;
     font-size: 13px;
@@ -3498,6 +3502,8 @@ body.off-canvas-cart-open:after {
 .fullheight {
     height: 100vh;
 }
+
+.fullheight
 
 @media (max-width: 991px) {
     .module-hero {
