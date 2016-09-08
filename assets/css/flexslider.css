@@ -48,7 +48,7 @@
 	display: block;
 }
 .flexslider .slides:after {
-	content: "\0020";
+	/*content: "\0020";*/
 	display: block;
 	clear: both;
 	visibility: hidden;
@@ -73,7 +73,23 @@ html[xmlns] .flexslider .slides {
 	height: 70vh;
 	margin: 0;
 }
+.headerimage {
+	position: relative;
+	height: 70vh;
+	margin: 0;
+	height: 100% !important;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100% !important;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
 
+}
 .flexslider .slides {
 	height: 100% !important;
 	-webkit-transition-delay: 1s;
