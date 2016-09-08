@@ -453,7 +453,7 @@ hr {
 
 [class*="color-"] a:not(.btn):hover,
 [class*="color-"] a:not(.btn):focus {
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 /* --- [Font Size Text] --- */
@@ -841,11 +841,12 @@ table th {
 */
 
 .btn {
-    text-transform: uppercase;
+    
     letter-spacing: 1px;
     font-weight: bold;
-    font-size: 11px;
+    /*font-size: 12px;*/
     border-width: 2px;
+    font-family: "Alegreya Sans SC", serif;
     border-radius: 0;
     padding: 10px 24px;
     -webkit-transition: all 0.3s ease-out;
@@ -867,19 +868,31 @@ table th {
 .btn:active.focus,
 .btn:active:focus {
     outline: 0;
+    color: #008eca;
+
+
 }
 
 /* --- [Button Sizes] --- */
 
 .btn-education {
-    padding: padding: 13px 31px;
+    padding: 13px 31px;
     font-size: 30px;
 }
+
 .btn-lg {
     padding: 13px 31px;
     font-size: 13px;
 }
+.btn-education {
+    padding: 13px 31px;
+    font-size: 30px;
+}
+.btn-joinus {
+     padding: 13px 31px;
+    font-size: 36px;
 
+}
 .btn-sm {
     padding: 9px 19px 9px;
     font-size: 11px;
@@ -1069,9 +1082,11 @@ table th {
 
 .btn.btn-white:hover,
 .btn.btn-white:focus {
-    background-color: #f2f2f2;
+    background-color: #008eca;
     border-color: #f2f2f2;
-    color: #333;
+    opacity: 0.7;
+    color: #fff;
+
 }
 
 .btn.btn-white.btn-outline {
@@ -2905,7 +2920,7 @@ body.off-canvas-cart-open:after {
     z-index: 1030;
     visibility: hidden;
     text-align: left;
-    font-size: 16px;
+    font-size: 15px;
     border-radius: 0% 0% 10% 10%;
 }
 
@@ -2959,7 +2974,7 @@ body.off-canvas-cart-open:after {
 .submenu li a {
     position: relative;
     display: block;
-
+    
     line-height: 1.4;
     padding: 12px 27px 12px 20px;
 
@@ -3019,7 +3034,7 @@ body.off-canvas-cart-open:after {
 .submenu li > a:hover,
 .submenu li > a:focus,
 .submenu li.submenu-open > a {
-    background: rgba(0, 142, 202, 0.5);
+    background: rgba(0, 128, 182, 0.9);
     color: #ffffff;
 }
 
