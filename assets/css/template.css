@@ -680,9 +680,9 @@ hr {
 /*------------------------------------------------------------------
 [Forms]
 */
-.border {
+/*.border {
     border: 0.3px solid rgba(255, 255, 255, 0.8);
-}
+}*/
 
 .form-control {
     border: 2px solid #eee;
@@ -889,9 +889,39 @@ table th {
     font-size: 30px;
 }
 .btn-joinus {
-     padding: 13px 31px;
+    padding: 13px 31px;
     font-size: 36px;
+}
+.btn-individual {
+    padding: 5px 107px;
+    font-size: 39px;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-color: rgba(0, 142, 202, 0.9);
+    color: #fff;
+     border-radius: 1px;
+}
 
+.btn.btn-individual:hover,
+.btn.btn-individual:focus {
+    background-color: rgba(0, 142, 202, 0.8);
+    border-color: rgba(0, 142, 202, 1);
+    opacity: 1;
+    color: #fff;
+
+}
+
+.btn.btn-individual.btn-outline {
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn.btn-individual.btn-outline:hover,
+.btn.btn-individual.btn-outline:focus {
+    background: #fff;
+    color: #333;
+}
 }
 .btn-sm {
     padding: 9px 19px 9px;
