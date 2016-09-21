@@ -214,13 +214,17 @@ h1.quotes {
     font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: 400;
 }
+.lato {
+    font-family: "Lato", sans-serif;
+
+}/*
 .digital {
     @font-face {
         font-family: 'digital-7';     
         src: url('../fonts/digital-7.ttf');
      }
 }
-
+*/
 
 .lead {
     line-height: 1.8;
@@ -481,7 +485,7 @@ hr {
 }
 
 .text-aboutus {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.7;
 
 }
@@ -900,8 +904,8 @@ table th {
     font-size: 40px;
 }
 .btn-individual {
-    padding: 5px 107px;
-    font-size: 39px;
+    padding: 5px 50px;
+    font-size: 34px;
     font-weight: 400;
     background-color: rgba(0, 0, 0, 0.2);
     border-color: rgba(0, 142, 202, 0.9);
