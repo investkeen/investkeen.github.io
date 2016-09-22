@@ -514,6 +514,7 @@ hr {
     font-size: 80 px;
 }
 
+
 @media (max-width: 1023px) {
     .text-super-xl {
         font-size: 72px;
@@ -521,6 +522,9 @@ hr {
 }
 
 @media (max-width: 767px) {
+   .text-headerline {
+       font-size: 12px;
+   }
     .text-xl {
         font-size: 24px;
     }
@@ -547,12 +551,18 @@ hr {
 }
 
 @media (max-width: 568px) {
+    .text-headerline {
+        font-size: 10px;
+    }
     .text-super-xl {
         font-size: 34px;
     }
 }
 
 @media (max-width: 320px) {
+    .text-headerline {
+        font-size: 10px;
+    }
     .text-super-xl {
         font-size: 26px;
     }
@@ -904,7 +914,7 @@ table th {
     font-size: 40px;
 }
 .btn-individual {
-    padding: 5px 40px;
+    padding: 5px 20px;
     font-size: 34px;
     font-weight: 400;
     background-color: rgba(0, 0, 0, 0.2);
@@ -912,7 +922,30 @@ table th {
     color: #fff;
      border-radius: 1px;
 }
+   
+/*@media (max-width: 767px) {
+     
+ } .btn-individual {
+    padding: 5px 10px;
+    font-size: 34px;
+    
+}
 
+@media (max-width: 568px) {
+     
+ } .btn-individual {
+    padding: 5px 10px;
+    font-size: 34px;
+   
+}
+@media (max-width: 320px) {
+     
+ } .btn-individual {
+    padding: 5px 8px;
+    font-size: 24px;
+    
+}
+*/
 .btn.btn-individual:hover,
 .btn.btn-individual:focus {
     background-color: rgba(0, 142, 202, 0.8);
@@ -1838,7 +1871,7 @@ body.off-canvas-cart-open:after {
     padding: 2px;
     border-width: 2px;
     border-style: solid;
-    border-color: #27CBC0 transparent transparent transparent;
+    border-color: #008eca transparent transparent transparent;
     border-radius: 50%;
             box-sizing: border-box;
     -webkit-box-sizing: border-box;
