@@ -523,7 +523,7 @@ hr {
 
 @media (max-width: 767px) {
    .text-headerline {
-       font-size: 12px;
+       font-size: 20px;
    }
     .text-xl {
         font-size: 24px;
@@ -552,7 +552,7 @@ hr {
 
 @media (max-width: 568px) {
     .text-headerline {
-        font-size: 10px;
+        font-size: 16px;
     }
     .text-super-xl {
         font-size: 34px;
@@ -561,7 +561,7 @@ hr {
 
 @media (max-width: 320px) {
     .text-headerline {
-        font-size: 10px;
+        font-size: 12px;
     }
     .text-super-xl {
         font-size: 26px;
@@ -914,7 +914,7 @@ table th {
     font-size: 40px;
 }
 .btn-individual {
-    padding: 5px 20px;
+    padding: 5px 55px;
     font-size: 34px;
     font-weight: 400;
     background-color: rgba(0, 0, 0, 0.2);
@@ -922,30 +922,40 @@ table th {
     color: #fff;
      border-radius: 1px;
 }
-   
-/*@media (max-width: 767px) {
+@media (max-width: 1024px) {
+    .btn-individual {
+        padding: 5px 70px;
+        font-size: 34px;
      
- } .btn-individual {
-    padding: 5px 10px;
-    font-size: 34px;
+ } 
+    
+}
+   
+@media (max-width: 767px) {
+    .btn-individual {
+        padding: 5px 50px;
+        font-size: 34px;
+     
+ } 
     
 }
 
 @media (max-width: 568px) {
+    .btn-individual {
+        padding: 5px 12px;
+        font-size: 25px;
+       
+    }
      
- } .btn-individual {
-    padding: 5px 10px;
-    font-size: 34px;
-   
-}
+ } 
 @media (max-width: 320px) {
-     
- } .btn-individual {
-    padding: 5px 8px;
-    font-size: 24px;
-    
-}
-*/
+     .btn-individual {
+         padding: 5px 15px;
+         font-size: 24px;
+         
+     }
+ } 
+
 .btn.btn-individual:hover,
 .btn.btn-individual:focus {
     background-color: rgba(0, 142, 202, 0.8);
