@@ -4,7 +4,7 @@ body {
     background: #ffffff;
     font-family: "Open Sans", sans-serif;
     line-height: 1.7;
-    font-size: 19px;
+    font-size: 18px;
     color: #777777;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -961,7 +961,7 @@ table th {
      border-radius: 1px;
 }
 @media (max-width: 1024px) {
-    .btn-individual {
+    .btn-education {
         padding: 5px 70px;
         font-size: 34px;
      
@@ -970,7 +970,7 @@ table th {
 }
    
 @media (max-width: 767px) {
-    .btn-individual {
+    .btn-education {
         padding: 5px 50px;
         font-size: 34px;
      
@@ -979,7 +979,7 @@ table th {
 }
 
 @media (max-width: 568px) {
-    .btn-individual {
+    .btn-education {
         padding: 5px 12px;
         font-size: 25px;
        
@@ -987,7 +987,7 @@ table th {
      
  } 
 @media (max-width: 320px) {
-     .btn-individual {
+     .btn-education {
          padding: 5px 15px;
          font-size: 24px;
          
