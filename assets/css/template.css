@@ -3018,13 +3018,13 @@ body.off-canvas-cart-open:after {
 
 .inner-nav > li > a {
    /* text-transform: uppercase;*/
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
     line-height: 20px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     display: block;
     padding: 33px 15px;
-    font-family: serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* Submenu */
@@ -3042,7 +3042,7 @@ body.off-canvas-cart-open:after {
     padding: 0;
     min-width: 180px;
     opacity: 1;
-    font-family: serif;
+    font-family: "Open Sans", sans-serif;
     z-index: 1030;
     visibility: hidden;
     text-align: left;
@@ -3149,8 +3149,8 @@ body.off-canvas-cart-open:after {
 
 .submenu li > a {
     color: #a1a1a1;
-    -webkit-transition: all 0.3s ease-out;
-            transition: all 0.3s ease-out;
+  /*  -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;*/
 }
 
 .submenu-title {
