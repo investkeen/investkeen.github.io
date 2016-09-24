@@ -867,8 +867,9 @@ table th {
     font-weight: bold;
     /*font-size: 12px;*/
     border-width: 2px;
-    font-family: "Alegreya Sans SC", serif;
+    font-family: "Lato", serif;
     border-radius: 0;
+    font-weight: 100;
     padding: 10px 24px;
     -webkit-transition: all 0.3s ease-out;
             transition: all 0.3s ease-out;
