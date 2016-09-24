@@ -204,6 +204,10 @@ h1.quotes {
     font-family: "Montserrat", Arial, serif;
     font-weight: 700;
 }
+.opensans {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+}
 
 .alegreya {
     font-family: "Alegreya", Arial, serif;
