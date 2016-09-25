@@ -995,6 +995,7 @@ table th {
      }
  } 
 
+
 .btn.btn-individual:hover,
 .btn.btn-individual:focus {
     background-color: rgba(0, 142, 202, 0.8);
@@ -1017,6 +1018,39 @@ table th {
 }
 
 
+@media (max-width: 1024px) {
+    .btn-individual {
+        padding: 5px 70px;
+        font-size: 34px;
+     
+ } 
+    
+}
+   
+@media (max-width: 767px) {
+    .btn-individual {
+        padding: 5px 50px;
+        font-size: 34px;
+     
+ } 
+    
+}
+
+@media (max-width: 568px) {
+    .btn-individual {
+        padding: 5px 12px;
+        font-size: 25px;
+       
+    }
+     
+ } 
+@media (max-width: 320px) {
+     .btn-individual {
+         padding: 5px 15px;
+         font-size: 24px;
+         
+     }
+ } 
 .btn-sm {
     padding: 9px 19px 9px;
     font-size: 11px;
@@ -5775,7 +5809,7 @@ address.map-background {
     position: absolute;
     bottom: 2px;
     top: 98%;
-    left: 47%;
+    left: 40%;
     z-index: 2;
     display: inline-block;
     -webkit-transform: translate(0, -50%);
