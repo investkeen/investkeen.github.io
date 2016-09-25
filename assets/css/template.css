@@ -5454,7 +5454,8 @@ body.off-canvas-cart-open:after {
 
 .widget .recent-posts > li {
     border-top: 1px solid #eee;
-    padding: 10px 0;
+    padding: 2px 0;
+    font-size: 15px;
 }
 
 .widget .recent-posts > li:before,
@@ -5462,7 +5463,7 @@ body.off-canvas-cart-open:after {
     content: " ";
     display: table;
 }
-
+Widget
 .widget .recent-posts > li:after {
     clear: both;
 }
@@ -5865,4 +5866,23 @@ address.map-background {
         margin-left: 0px !important;
         margin-right: 0px !important;
     }
+}
+
+
+@media (max-width: 1024px) {
+    #site-map {
+        float: right !important;
+    } 
+}
+@media (max-width: 767px) {
+        #site-map {
+            float: right !important;
+        }
+   
+}
+
+@media (max-width: 320px)  {
+    #site-map {
+        float: left !important;
+        }    
 }
